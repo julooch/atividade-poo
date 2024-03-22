@@ -14,22 +14,27 @@ public class Suprimentos {
         }
 
         public int getNumeroItem() {
+
             return numeroItem;
         }
 
         public void setNumeroItem(int numeroItem) {
+
             this.numeroItem = numeroItem;
         }
 
         public String getDescricaoItem() {
+
             return descricaoItem;
         }
 
         public void setDescricaoItem(String descricaoItem) {
+
             this.descricaoItem = descricaoItem;
         }
 
         public int getQuantidadeItem() {
+
             return quantidadeItem;
         }
 
@@ -42,10 +47,12 @@ public class Suprimentos {
         }
 
         public void setPrecoItem(double precoItem) {
+
             this.precoItem = (precoItem >= 0.0) ? precoItem : 0.0;
         }
 
         public double getInvoiceAmount() {
+
             return quantidadeItem * precoItem;
         }
     }
