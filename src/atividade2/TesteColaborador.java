@@ -4,8 +4,8 @@ public class TesteColaborador {
 
     public static void main(String[] args) {
 
-        Colaborador colaborador1 = new Colaborador("João", "Silva", 5000.0);
-        Colaborador colaborador2 = new Colaborador("Maria", "Souza", 6000.0);
+        Colaborador colaborador1 = new Colaborador("Marco", "Gomes", 5000.0);
+        Colaborador colaborador2 = new Colaborador("Julia", "Silva", 6000.0);
 
         // Exibindo salário anual de cada colaborador
         System.out.println("Salário anual de " + colaborador1.getPrimeiroNome() + " " + colaborador1.getSobrenome() + ": " + colaborador1.calcularSalarioAnual());
